@@ -1,0 +1,7 @@
+services:
+  divide-app:
+    container_name: divide-app
+    build: .
+    restart: always
+    ports:
+      - "80:7860"
